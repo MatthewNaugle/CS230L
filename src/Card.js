@@ -1,3 +1,5 @@
+const Card = () => {
+    return (
 <div class="row  row-cols-1 row-cols-md-3 mb-3 text-center">
   <div class="col">
     <div class="card">
@@ -37,3 +39,7 @@
     </div>
   </div>
 </div>
+    )
+}
+
+export default Card;
